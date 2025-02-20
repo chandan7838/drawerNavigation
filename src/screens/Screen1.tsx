@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Button, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { StackParamList } from '../types/navifgation';
+import Button from '../components/Button';
 
 type Screen1Props = StackScreenProps<StackParamList, 'Screen1'>;
 

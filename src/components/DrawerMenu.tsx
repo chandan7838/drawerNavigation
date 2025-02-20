@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { styles } from '../styles';
+import Text from './Text';
 
 const drawerItems = ['Home', 'Favorites', 'Orders', 'Sign Out'];
 
