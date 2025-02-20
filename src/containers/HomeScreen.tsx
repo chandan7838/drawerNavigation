@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import Animated, { useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
-import DrawerMenu from '../components/DrawerMenu';
+import DrawerMenu from './DrawerMenu';
 import TabNavigator from '../navigation/TabNavigator';
 import { styles } from '../styles';
 
